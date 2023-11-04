@@ -135,7 +135,7 @@ namespace Taschenrechner
         private void CmdWurzel_Click(object sender, EventArgs e)
         {
             Zahl1 = Convert.ToInt32(label1.Text);
-            LblZahl2.Text  = $"{Zahl1}";
+            LblZahl2.Text = $"{Zahl1}";
             double Wurzel = Math.Sqrt(Zahl1);
             LblOperation.Text = "√";
             label1.Text = $"{Wurzel}";

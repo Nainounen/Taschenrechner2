@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             Cmd7 = new Button();
             Cmd8 = new Button();
@@ -340,8 +341,9 @@
             Controls.Add(Cmd8);
             Controls.Add(Cmd7);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculator";
             Load += Form1_Load;
             ResumeLayout(false);
         }
