@@ -50,6 +50,7 @@
             LblZahl1 = new Label();
             LblZahl2 = new Label();
             LblOperation = new Label();
+            TBRechnung = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -315,11 +316,21 @@
             LblOperation.TextAlign = ContentAlignment.MiddleCenter;
             LblOperation.Click += LblOperation_Click;
             // 
+            // TBRechnung
+            // 
+            TBRechnung.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            TBRechnung.Location = new Point(12, 28);
+            TBRechnung.Name = "TBRechnung";
+            TBRechnung.Size = new Size(368, 114);
+            TBRechnung.TabIndex = 21;
+            TBRechnung.TextChanged += TBRechnung_TextChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(538, 712);
+            Controls.Add(TBRechnung);
             Controls.Add(LblOperation);
             Controls.Add(LblZahl2);
             Controls.Add(LblZahl1);
@@ -346,6 +357,7 @@
             Text = "Calculator";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -371,5 +383,6 @@
         private Label LblZahl1;
         private Label LblZahl2;
         private Label LblOperation;
+        private TextBox TBRechnung;
     }
 }

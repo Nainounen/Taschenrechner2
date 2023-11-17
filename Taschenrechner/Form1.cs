@@ -27,6 +27,7 @@ namespace Taschenrechner
 
         private void Cmd0_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "0";
             label1.Text += "0";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -34,6 +35,7 @@ namespace Taschenrechner
 
         private void Cmd1_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "1";
 
             label1.Text += "1";
             LblZahl1.Text = $"{Zahl1}";
@@ -42,6 +44,8 @@ namespace Taschenrechner
 
         private void Cmd2_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "2";
+
             label1.Text += "2";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -49,6 +53,8 @@ namespace Taschenrechner
 
         private void Cmd3_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "3";
+
             label1.Text += "3";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -56,6 +62,8 @@ namespace Taschenrechner
 
         private void Cmd4_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "4";
+
             label1.Text += "4";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -63,6 +71,8 @@ namespace Taschenrechner
 
         private void Cmd5_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "5";
+
             label1.Text += "5";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -70,6 +80,8 @@ namespace Taschenrechner
 
         private void Cmd6_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "6";
+
             label1.Text += "6";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -77,6 +89,8 @@ namespace Taschenrechner
 
         private void Cmd7_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "7";
+
             label1.Text += "7";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -84,6 +98,8 @@ namespace Taschenrechner
 
         private void Cmd8_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "8";
+
             label1.Text += "8";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -91,6 +107,8 @@ namespace Taschenrechner
 
         private void Cmd9_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "9";
+
             LblZahl1.Text += "9";
             LblZahl1.Text = $"{Zahl1}";
             LblZahl2.Text = $"{Zahl2}";
@@ -99,6 +117,8 @@ namespace Taschenrechner
 
         private void CmdPlus_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "+";
+
             Zahl1 = Convert.ToInt32(label1.Text);
             label1.Text = "";
             Operation = '+';
@@ -107,6 +127,8 @@ namespace Taschenrechner
 
         private void CmdMinus_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "-";
+
             Zahl1 = Convert.ToInt32(label1.Text);
             label1.Text = "";
             Operation = '-';
@@ -116,6 +138,8 @@ namespace Taschenrechner
 
         private void CmdMultiplikation_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "*";
+
             Zahl1 = Convert.ToInt32(label1.Text);
             label1.Text = "";
             Operation = '*';
@@ -125,6 +149,8 @@ namespace Taschenrechner
 
         private void CmdDivision_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "/";
+
             Zahl1 = Convert.ToInt32(label1.Text);
             label1.Text = "";
             Operation = '/';
@@ -134,6 +160,8 @@ namespace Taschenrechner
 
         private void CmdWurzel_Click(object sender, EventArgs e)
         {
+            TBRechnung.Text += "√";
+
             Zahl1 = Convert.ToInt32(label1.Text);
             LblZahl2.Text = $"{Zahl1}";
             double Wurzel = Math.Sqrt(Zahl1);
@@ -179,6 +207,7 @@ namespace Taschenrechner
             Zahl2 = 0;
             Ergebnis = 0;
             LblOperation.Text = string.Empty;
+            TBRechnung.Text = string.Empty;
 
 
         }
@@ -194,6 +223,11 @@ namespace Taschenrechner
         }
 
         private void LblOperation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TBRechnung_TextChanged(object sender, EventArgs e)
         {
 
         }

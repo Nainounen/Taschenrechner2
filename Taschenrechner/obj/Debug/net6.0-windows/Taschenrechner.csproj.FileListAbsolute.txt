@@ -30,3 +30,19 @@ C:\Users\meier\source\repos\Taschenrechner - Copy\Taschenrechner\obj\Debug\net6.
 C:\Users\meier\source\repos\Taschenrechner - Copy\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.pdb
 C:\Users\meier\source\repos\Taschenrechner - Copy\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.genruntimeconfig.cache
 C:\Users\meier\source\repos\Taschenrechner - Copy\Taschenrechner\obj\Debug\net6.0-windows\ref\Taschenrechner.dll
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\bin\Debug\net6.0-windows\Taschenrechner.exe
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\bin\Debug\net6.0-windows\Taschenrechner.deps.json
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\bin\Debug\net6.0-windows\Taschenrechner.runtimeconfig.json
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\bin\Debug\net6.0-windows\Taschenrechner.dll
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\bin\Debug\net6.0-windows\Taschenrechner.pdb
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.Form1.resources
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.csproj.GenerateResource.cache
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.AssemblyInfoInputs.cache
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.AssemblyInfo.cs
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.csproj.CoreCompileInputs.cache
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.dll
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\refint\Taschenrechner.dll
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.pdb
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\Taschenrechner.genruntimeconfig.cache
+C:\Users\meier\Source\Repos\Taschenrechner23\Taschenrechner\obj\Debug\net6.0-windows\ref\Taschenrechner.dll
